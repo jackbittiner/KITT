@@ -1,0 +1,14 @@
+<center>
+
+  <% @messages.each do |message| %>
+
+  <div class="typewriter">
+    <h1><%=message.text%></h1>
+  </div>
+
+  <button><%=message.response1%></button>
+  <button><%=message.response2%></button>
+
+  <% end %>
+
+</center>
