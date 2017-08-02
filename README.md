@@ -60,3 +60,26 @@ of Rails and JSON I'm sure I could get the above attempts to work. But that will
 in time. I hope you look past the lack of code that I've written, and see my thought processes!
 
 ## How to run the program
+
+First clone this repository and enter it:
+
+```
+git@github.com:jackbittiner/KITT.git
+cd KITT
+```
+
+Then run the following commands to get set up and running:
+
+```
+bundle install
+rails db:migrate
+rake db:seed
+rails server
+```
+
+You will be taken to a landing page, with KITT.
+Then you will click to go to the Chat index.
+
+This is where it gets underwhelming. Because I didn't want to hand in a chat bot
+that didn't chat, you have a message created for you with the responses as links
+to the win and lose page! Enjoy!
