@@ -7,5 +7,5 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 Message.create(text: "Hello, what is your name?",
-                       response1: "Mitch",
-                       response2: "Michael")
+                       response1: "Mitch Buchannon",
+                       response2: "Michael Knight")

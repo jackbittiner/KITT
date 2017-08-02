@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'endpage/win'
+
+  get 'endpage/lose'
+
   get 'chat/index'
 
   get 'welcome/index'
